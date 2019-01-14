@@ -10,7 +10,7 @@ class TestThread
 public:
     TestThread();
 
-    void LaunchThread();
+    void LaunchThreads();
     static void call_from_thread(int tid);
 
 private:

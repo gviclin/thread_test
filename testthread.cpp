@@ -31,7 +31,7 @@ void TestThread::call_from_thread(int tid) {
 
 }
 
-void TestThread::LaunchThread()
+void TestThread::LaunchThreads()
 {
     std::vector<std::thread> vectorThread;
 

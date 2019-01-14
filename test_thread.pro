@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    testthread.cpp
+    testthread.cpp \
+    lambdafunctiontest.cpp
 
 HEADERS += \
         mainwindow.h \
-    testthread.h
+    testthread.h \
+    lambdafunctiontest.h
 
 FORMS += \
         mainwindow.ui
